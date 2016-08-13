@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: jweb2
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: User
+Implementation-Vendor-Id: br.com.fabricadeprogramador
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/jweb2/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
