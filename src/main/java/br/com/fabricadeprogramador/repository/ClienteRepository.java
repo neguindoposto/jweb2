@@ -9,8 +9,4 @@ import br.com.fabricadeprogramador.model.Cliente;
 
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Integer>{
-	
-	
-	
-
 }

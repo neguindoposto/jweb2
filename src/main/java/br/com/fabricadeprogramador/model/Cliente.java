@@ -1,5 +1,6 @@
 package br.com.fabricadeprogramador.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -9,9 +10,22 @@ public class Cliente {
 	@Id
 	@GeneratedValue
 	private Integer id;
+	@Column(nullable=false)
 	private String nome;
+	@Column(nullable=false)
 	private String email;
+	@Column(nullable=false,length=11)
 	private String cpf;
+	
+	public Cliente(){
+		
+	}
+	
+	public Cliente(String nome,String email,String cpf){
+		this.nome =nome;
+		this.email = email;
+		this.cpf = cpf;
+	}
 	
 	
 	public Integer getId() {
